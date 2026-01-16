@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  /* Hybrid: keep beige/neutral base + ONE accent (blue) */
+  --app-bg: #f4f1e8;
+  --surface: #ffffff;
+  --sidebar: #ffffff;
+  --sidebar-border: #e5e7eb;
+
+  --brand: #1e88e5; /* Primary Blue */
+  --brand-2: #1e88e5; /* No purple; keep same as brand */
+  --success: #2e7d32;
+  --warning: #fb8c00;
+  --danger: #c62828;
+
+  --text: #1f2937;
+  --muted: #6b7280;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--app-bg);
+  color: var(--text);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Make inputs feel like “dashboard UI” */
+input,
+select,
+textarea {
+  color-scheme: light;
+}
