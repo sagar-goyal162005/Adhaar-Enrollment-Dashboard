@@ -1,5 +1,7 @@
 # 🇮🇳 AADHAAR ENROLLMENT DASHBOARD
 
+A full-stack dashboard to explore Aadhaar enrollment data with clean, filterable analytics and exportable summaries.
+
 ## ⚠️ License & Usage
 This project is proprietary and developed for the UIDAI Hackathon.
 Unauthorized copying, modification, or distribution is strictly prohibited.
@@ -12,11 +14,11 @@ See project details (features, tech stack, API overview) in [PROJECT_SUMMARY.md]
 ## 📁 Repo Structure
 ```
 Uidai/
-├── backend/                       # FastAPI backend (pandas cleaning + API)
-├── uidai-dashboard/               # React + Vite frontend
-├── run.ps1                        # Starts backend + frontend (Windows)
+├── backend/                          # FastAPI backend (pandas cleaning + API)
+├── uidai-dashboard/                  # React + Vite frontend
+├── run.ps1                           # Starts backend + frontend (Windows)
 └── data/
-  └── api_data_aadhar_enrolment.csv    # Main enrollment data
+  └── api_data_aadhar_enrolment.csv   # Main enrollment data
 ```
 
 ## 🚀 How To Run (Windows)
