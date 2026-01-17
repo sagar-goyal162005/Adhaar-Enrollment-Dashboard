@@ -1,0 +1,9 @@
+{
+  "name": "adhaar-enrollment-dashboard",
+  "private": true,
+  "scripts": {
+    "install:frontend": "cd uidai-dashboard && npm ci --no-audit --no-fund",
+    "build": "cd uidai-dashboard && npm run build",
+    "dev": "cd uidai-dashboard && npm run dev"
+  }
+}

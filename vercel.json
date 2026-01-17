@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "uidai-dashboard/dist",
+  "functions": {
+    "api/**/*.py": {
+      "maxDuration": 30,
+      "excludeFiles": "{uidai-dashboard/**,.git/**,**/*.map,**/__pycache__/**,**/*.pyc}"
+    }
+  },
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "/api/index.py" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

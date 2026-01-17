@@ -27,6 +27,9 @@ node_modules/
 dist/
 .vite/
 
+# Root npm lockfile (frontend lockfile is tracked in uidai-dashboard/)
+/package-lock.json
+
 # Env files / secrets
 .env
 .env.*
